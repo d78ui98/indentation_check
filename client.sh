@@ -13,17 +13,17 @@ cat <<-END
 
 DESCRIPTION:
 
-	Script that creates LTSP client.
+    Script that creates LTSP client.
 
 USAGE:
 		
-	Simply run the script and enter the name 
-	of the client when prompted.
+    Simply run the script and enter the name 
+    of the client when prompted.
 						
 OPTIONS:
 
-	-h, --help
-	Display help
+    -h, --help
+    Display help
 
 END
 }
@@ -50,9 +50,9 @@ create_client(){
 }
 
 if [ "$1" == "" ]; then
-	create_client
+    create_client
 fi
 
 if [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
-	usage
+    usage
 fi
